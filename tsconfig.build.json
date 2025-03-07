@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "noEmit": false
+  },
+  "include": ["src/index.ts", "src/components/**/*"],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*",
+    "ios",
+    "android",
+    ".expo",
+    "assets"
+  ]
+}
